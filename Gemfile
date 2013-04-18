@@ -22,6 +22,8 @@ group :assets do
 end
 group :production do
   gem 'heroku'
+  gem 'mongoid', '~>3.0.4'
+  gem 'mongo'
 end
 gem 'jquery-rails'
 
