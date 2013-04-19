@@ -1,6 +1,11 @@
 Feedhavenorg::Application.routes.draw do
-    get "/home" => "pages#home"
-    root :to => "pages#home"
+  get "/home" => "pages#home"
+  root :to => "pages#home"
+  get "/api" => "pages#api"
+  get "/import" => "pages#import"
+  get "/warnings" => "pages#warnings"
+  get "/about" => "pages#about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
